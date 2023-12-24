@@ -1,0 +1,11 @@
+#Write a Program to find and display total no of uppercase and lowercase
+#letters in a string.
+s=input('Enter a string: ')
+lowerCount=upperCount=0
+for i in range(len(s)):
+    if s[i]>='a' and s[i]<='z':
+        lowerCount=lowerCount+1
+    if s[i]>='A' and s[i]<='Z':
+        upperCount=upperCount+1
+print('Total uppercase letters in string=',upperCount)
+print('Total lowercase letters in string=',lowerCount)

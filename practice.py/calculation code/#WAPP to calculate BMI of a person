@@ -1,0 +1,9 @@
+# to calculate BMI = kg /m square
+wght_in_kg = float ( input ("Enter weight in kg :"))
+higt_in_centimeter = float (input("Enter hight in centimeter :"))
+# convert hight in centimeter to meter
+higt_in_meter = higt_in_centimeter / 100
+print("Hight in meters is :",higt_in_meter)
+# body mass index
+bmi = wght_in_kg / (higt_in_meter**2)
+print("Body Mass Index of the person is :",bmi)

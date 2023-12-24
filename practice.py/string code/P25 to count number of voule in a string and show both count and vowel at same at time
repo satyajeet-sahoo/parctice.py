@@ -1,0 +1,10 @@
+#WAPP to count number of vowels in the string
+st = input("Enter the string :")
+st2 ='AEIOUaeiou'
+for i in range (0,len(st2)):
+    c=0
+    for j in range (0,len(st)):
+           if st2[i]==st[j] :
+               c+=1
+    if c>0:
+        print(st2[i],"is",c,"time")
